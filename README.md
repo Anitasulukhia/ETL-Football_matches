@@ -1,11 +1,11 @@
-# ETL-Football_matches
+# Football Data ETL and Score Prediction
 Developed ETL processes and data pipelines to automate data extraction, transformation, and loading using Airflow. Analyzed historical match data, applying machine learning algorithms to predict match scores and gain insights into team performance.
 
-Project Overview
+# Project Overview
 
 This project automates the extraction, transformation, and loading (ETL) of football match data using Apache Airflow and PostgreSQL, with machine learning models applied to predict match scores based on historical data. Data is extracted from a free API that provides both historical and future football match data. The entire setup is containerized using Docker for easy deployment and scalability. Additionally, ASTRO is used for managing Apache Airflow deployments.
 
-Features
+# Features
 
 ETL Pipeline:
 Built with Apache Airflow, this pipeline automates the extraction of match data from an external free API, transforms it for analysis, and loads it into a PostgreSQL database.
@@ -20,7 +20,7 @@ Used for managing Apache Airflow deployments, providing a simple interface to ma
 Automation:
 The full pipeline is automated, reducing manual intervention while ensuring continuous model updates and match predictions.
 
-Technologies Used:
+# Technologies Used:
 
 Python: For data processing, machine learning, and automation.
 Apache Airflow: For orchestrating the ETL pipeline and automating data workflows.
@@ -33,7 +33,7 @@ SQLAlchemy: For handling database interactions within the Python environment.
 Football API: Free API for extracting both historical and future football match data.
 Project Structure
 
-The project is divided into two main parts:
+# The project is divided into two main parts:
 
 Data Pipeline (football_cl):
 This folder contains the Python code for implementing the Airflow DAGs and the ETL pipeline. The core code for orchestrating the workflow is located in the dag folder.
@@ -45,7 +45,7 @@ dag: Contains the Airflow DAG definitions for ETL, including tasks for data extr
 predict_football_scores
 Contains Python scripts to load match data from the database, process it, train machine learning models, and predict future match scores.
 
-if you want to implement this project:
+# if you want to implement this project:
 
 1. Clone the repository
 git clone <repository_url>
