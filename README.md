@@ -39,6 +39,8 @@ Getting Started
 1. Clone the repository
 git clone <repository_url>
 cd <project_directory>
+
+
 2. Build and start Docker containers
 Ensure Docker is installed, then run the following command to build and start the containers:
 
@@ -47,6 +49,7 @@ This will:
 
 Set up the PostgreSQL container and initialize the database.
 Set up the Apache Airflow container and start the scheduler and web server.
+
 3. Install Python dependencies
 If running outside of Docker, install the required dependencies:
 
